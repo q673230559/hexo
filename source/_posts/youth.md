@@ -18,7 +18,6 @@ Whether 60 or 16, there is in every human being’s heart the lure of wonder, th
 
 When the aerials are down, and your spirit is covered with snows of cynicism and the ice of pessimism, then you are grown old, even at 20, but as long as your aerials are up, to catch waves of optimism, there is hope you may die young at 80.
 
-原文：
 ## 青春 
 
 **塞缪尔**
