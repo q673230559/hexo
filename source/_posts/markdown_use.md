@@ -1,11 +1,11 @@
 ---
-title: Markdown编辑器使用手册
+title: Markdown效果展示
 date: 2017-01-010 16:29:54
-tags: Markdown,语法
-categories: 日记
+tags: [Markdown,语法]
+categories: 攻略
 ---
 # 概要
-这是一款专为markdown写作而设计的编辑器。
+小书匠是一款专为markdown写作而设计的编辑器。
 # 主要功能
 1. **专为markdown写作设计的文档编辑器**，让用户心无旁骛的进行创作。
 1. **多种编辑模式**。单栏编辑，双栏编辑，三栏编辑，全屏写作，全屏阅读...想怎么切换，就怎么切换，就是这样随心所欲。
