@@ -2,7 +2,7 @@
 title: Markdown效果预览
 date: 2017-01-010 16:29:54
 tags: [Markdown,语法]
-categories: markdown效果
+categories: Markdown
 ---
 # 概要
 小书匠是一款专为markdown写作而设计的编辑器。
