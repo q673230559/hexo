@@ -1,0 +1,765 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Markdown,语法," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="概要小书匠是一款专为markdown写作而设计的编辑器。
+主要功能
+专为markdown写作设计的文档编辑器，让用户心无旁骛的进行创作。
+多种编辑模式。单栏编辑，双栏编辑，三栏编辑，全屏写作，全屏阅读…想怎么切换，就怎么切换，就是这样随心所欲。
+多种编辑器实现。codemirror编辑器（提供vim,emacs按键，行专注等），ace编辑器（提供vim，emacs按键绑定，显示行号），轻量编辑器，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown效果预览">
+<meta property="og:url" content="http://yoursite.com/2017/01/10/markdown_use/index.html">
+<meta property="og:site_name" content="静水流深">
+<meta property="og:description" content="概要小书匠是一款专为markdown写作而设计的编辑器。
+主要功能
+专为markdown写作设计的文档编辑器，让用户心无旁骛的进行创作。
+多种编辑模式。单栏编辑，双栏编辑，三栏编辑，全屏写作，全屏阅读…想怎么切换，就怎么切换，就是这样随心所欲。
+多种编辑器实现。codemirror编辑器（提供vim,emacs按键，行专注等），ace编辑器（提供vim，emacs按键绑定，显示行号），轻量编辑器，">
+<meta property="og:updated_time" content="2017-01-11T05:05:42.649Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Markdown效果预览">
+<meta name="twitter:description" content="概要小书匠是一款专为markdown写作而设计的编辑器。
+主要功能
+专为markdown写作设计的文档编辑器，让用户心无旁骛的进行创作。
+多种编辑模式。单栏编辑，双栏编辑，三栏编辑，全屏写作，全屏阅读…想怎么切换，就怎么切换，就是这样随心所欲。
+多种编辑器实现。codemirror编辑器（提供vim,emacs按键，行专注等），ace编辑器（提供vim，emacs按键绑定，显示行号），轻量编辑器，">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2017/01/10/markdown_use/"/>
+
+
+
+
+
+  <title> Markdown效果预览 | 静水流深 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">静水流深</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">零落成泥碾作尘，只有香如故！</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tages" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/10/markdown_use/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Xudong.Han">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="https://q673230559.github.io/head.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="静水流深">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="静水流深" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Markdown效果预览
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-10T16:29:54+08:00">
+                2017-01-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/markdown效果/" itemprop="url" rel="index">
+                    <span itemprop="name">markdown效果</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p>小书匠是一款专为markdown写作而设计的编辑器。</p>
+<h1 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h1><ol>
+<li><strong>专为markdown写作设计的文档编辑器</strong>，让用户心无旁骛的进行创作。</li>
+<li><strong>多种编辑模式</strong>。单栏编辑，双栏编辑，三栏编辑，全屏写作，全屏阅读…想怎么切换，就怎么切换，就是这样随心所欲。</li>
+<li><strong>多种编辑器实现</strong>。codemirror编辑器（提供vim,emacs按键，行专注等），ace编辑器（提供vim，emacs按键绑定，显示行号），轻量编辑器，CJK竖排编辑器</li>
+<li><strong>多种主题选择</strong>。包括编辑器主题，预览区代码高亮主题，及预览区用户自定义css。<a id="more"></a></li>
+<li><strong>丰富的语法支持</strong>。不仅提供了常用的commanmarkdown语法，还提供了许多有用的扩展语法，比如==Latex公式==，==表格==, ==目录==， ==脚注==, ==视频==, ==音频==, ==附件==, ==checklist==, ==流程图==等。更多语法可查看&lt;小书匠语法使用手册&gt;</li>
+<li><strong>代码块文字格式语法</strong>。语法可查看&lt;小书匠语法使用手册&gt;</li>
+<li><strong>第三方同步</strong>。==浏览器存储==, ==本地文件系统存储==, ==dropbox==, ==evernote==, ==印象笔记==,==有道笔记==, ==为知笔记==, ==github==等多种存储方案，保证了用户数据的安全，也让用户在存储方案上有了更多的选择。</li>
+<li><strong>支持evernote，印象笔记</strong>。提供双向操作，可以将文章保存到evernote/印象笔记上，也可以从evernote/印象笔记上导入数据。同时提供标签，附件，图片，待办等相关处理。</li>
+<li><strong>强大的文件管理功能</strong>。文件信息，标签，附件，音频，视频，图片管理。</li>
+<li><strong>发布功能</strong>。 支持将文章发布到博客平台上。</li>
+<li><strong>邮件发送功能</strong>。</li>
+<li><strong>sourceMap对照功能</strong>。方便在源markdown文件和生成的html文件上进行比较，特别适合markdown初学者使用，了解每一个markdown解析产生的结果，也适用于文章后期的校对上。</li>
+<li><strong>ppt</strong>。</li>
+<li><strong>ppt跨屏演示</strong></li>
+<li><strong>pdf预览</strong></li>
+<li><strong>typewriter scrolling</strong></li>
+<li><strong>autocomplete 和 snippets 功能</strong></li>
+</ol>
+<h1 id="离线版下载地址"><a href="#离线版下载地址" class="headerlink" title="离线版下载地址"></a>离线版下载地址</h1><p><a href="http://soft.xiaoshujiang.com" target="_blank" rel="external">http://soft.xiaoshujiang.com</a></p>
+<h1 id="WEB版访问地址"><a href="#WEB版访问地址" class="headerlink" title="WEB版访问地址"></a>WEB版访问地址</h1><p><a href="http://markdown.xiaoshujiang.com" target="_blank" rel="external">http://markdown.xiaoshujiang.com</a></p>
+<h1 id="元数据使用说明"><a href="#元数据使用说明" class="headerlink" title="元数据使用说明"></a>元数据使用说明</h1><p>语法开关元数据项，可以到设置面板里的语法扩展标签页下查看对应的元数据标识．在元数据里true时，表示当前文档强制打开该语法，false时表示强制关闭该语法．如果没有对应的元数据，则使用全局设置里的语法开关.</p>
+<p><code>preview_previewType</code>元数据，可用的值为<code>normal</code>和<code>presentation</code>．用于文章在打开时，控制是否需要系统切换对应的预览界面．如果文章里没有该项元数据，或者元数据值不正确，则系统默认使用<code>normal</code>预览界面．该元数据仅控制文章打开时初始化的界面，用户依然可以通过按钮在不同预览界面间切换．</p>
+<h1 id="浏览器存储"><a href="#浏览器存储" class="headerlink" title="浏览器存储"></a>浏览器存储</h1><p>系统对创建的文章，都会在浏览器存储上进行保存。包括像evernote/印象笔记/github/dropbox等导入的文章，也都会保存一份副本，并创建一个标识，表示跟哪些第三方存储关联。</p>
+<h2 id="标题，标签"><a href="#标题，标签" class="headerlink" title="标题，标签"></a>标题，标签</h2><p>文章标题的处理规则：如果文章内存在元数据title，则系统自动使用元数据内的title做为标题。如果文章未使用到元数据功能，用户可以通过维护文章信息按钮，修改标题。标签tags的规则也跟标题一样。</p>
+<h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>文章使用<code>./</code>做为附件的引用标识。对于<code>图片</code>，<code>音频</code>，<code>视频</code>，<code>附件</code>等链接的处理，系统只处理以<code>./</code>开头的链接，并转换成附件真实的地址进行显示。用户可以通过工具栏的<code>插入图片</code>，<code>插入音频</code>，<code>插入视频</code>，<code>插入附件</code>等按钮上传附件。</p>
+<h1 id="evernote-印象笔记"><a href="#evernote-印象笔记" class="headerlink" title="evernote/印象笔记"></a>evernote/印象笔记</h1><p>小书匠编辑器提供对evernote/印象笔记的支持，下面的使用说明默认用户已经完成了evernote/印象笔记的绑定操作，并将当前的工作平台切换到evernote/印象笔记下。</p>
+<h2 id="新建"><a href="#新建" class="headerlink" title="新建"></a>新建</h2><p>通过新建按钮后，创建的文章将自动关联到evernote/印象笔记上(<strong>注:这里仅仅是在文章上创建一个关联的标识，只有当用户保存后，才能在服务器上查看到新的笔记</strong>)</p>
+<h2 id="打开"><a href="#打开" class="headerlink" title="打开"></a>打开</h2><p>点击笔记，系统将自动把笔记导入，并将当前文章切换为导入的笔记内容。导入的文章自动与evernote/印象笔记上的笔记关联，下次再点击该笔记时，将直接从浏览器存储上打开。用户可以通过切换存储平台<code>浏览器存储</code>，来删除该缓存的文件。导入的笔记如果本地没有缓存，系统将对服务器上的笔记进行判断，如果笔记是通过小书匠编辑器进行保存，并且文章在保存后没有被操作过，则系统自动使用保存时附带的markdown附件做为文章内容，重新导入。如果笔记已经被修改，或者笔记不是通过小书匠编辑器进行保存的，系统将自动将文章转换成markdown格式。</p>
+<h2 id="保存"><a href="#保存" class="headerlink" title="保存"></a>保存</h2><p>对于新创建的文章，用户可以直接保存<code>ctrl+s</code>，系统将弹出一个选择笔记本的窗口，确认后，系统将保存当前文章到evernote/印象笔记上。（在弹出窗口上选择笔记本时，如果用户选择了笔记，系统将覆盖该笔记）</p>
+<p>对于已经存在的文章，但还没有保存到evernote/印象笔记，用户可以通过另存为<code>ctrl+shift+s</code>将当前文章保存到evernote/印象笔记上。</p>
+<p>不管是保存，还是另存为，保存成功后，系统都将自动对当前文章与evernote/印象笔记上的笔记进行关联。下次保存时<code>ctrl+s</code>系统将自动同步保存到evernote/印象笔记上。</p>
+<h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><p>系统不提供删除操作，用户需要自己到evernote/印象笔记端删除，如果本地缓存了笔记，可以通过<code>浏览器存储</code>删除缓存。</p>
+<h2 id="重命名"><a href="#重命名" class="headerlink" title="重命名"></a>重命名</h2><p>直接修改元数据title，如果文章内未使用元数据功能，可通过<code>浏览器存储</code>里的修改文章信息进行修改</p>
+<h2 id="标签管理"><a href="#标签管理" class="headerlink" title="标签管理"></a>标签管理</h2><p>系统自动通过每篇文章的元数据<code>tags</code>提取为笔记的标签。</p>
+<h2 id="附件管理"><a href="#附件管理" class="headerlink" title="附件管理"></a>附件管理</h2><p>打开时，系统自动将笔记上的附件导入到文章对应的附件管理器上。保存时，系统将根据<strong>文章内对附件的引用</strong>，将附件保存到服务器上。这里的引用包括<code>音频</code>，<code>视频</code>，<code>附件</code>，<code>图片</code>。如果文章内使用到了<code>流程图</code>，<code>序列图</code>，<code>公式</code>，<code>统计图</code>等，系统将会把这些内容转换成图片进行保存。由于evernote/印象笔记在部分终端不提供视频，音频的支持，查看保存的文章时，对应的音频，视频将以附件的形式存储。</p>
+<h2 id="待办事项"><a href="#待办事项" class="headerlink" title="待办事项"></a>待办事项</h2><p>目前系统仅同步了待办事项。</p>
+<h1 id="github-dropbox"><a href="#github-dropbox" class="headerlink" title="github/dropbox"></a>github/dropbox</h1><h2 id="新建-1"><a href="#新建-1" class="headerlink" title="新建"></a>新建</h2><p>参考<code>evernote/印象笔记</code>的<code>新建</code></p>
+<h2 id="打开-1"><a href="#打开-1" class="headerlink" title="打开"></a>打开</h2><p>参考<code>evernote/印象笔记</code>的<code>打开</code><br>不同的是，github/dropbox只能打开扩展名为<code>html</code>，<code>markdown</code>，<code>md</code>，<code>mkd</code>以及无扩展名的文件。</p>
+<h2 id="保存-1"><a href="#保存-1" class="headerlink" title="保存"></a>保存</h2><p>参考<code>evernote/印象笔记</code>的<code>保存</code><br>不同的是，github/dropbox保存时，仅保存了markdown文章本身，并不会将markdown转换成html进行保存，也不会处理附件相关的内容。<br>对于新文章的保存，github/dropbox存储需要用户指定文件名及存储的位置。</p>
+<h2 id="删除-1"><a href="#删除-1" class="headerlink" title="删除"></a>删除</h2><p>系统不提供删除操作</p>
+<h2 id="重命名-1"><a href="#重命名-1" class="headerlink" title="重命名"></a>重命名</h2><p>系统不提供重命名操作，只能通过另存为<code>ctrl+shift+s</code>，保存成新的文件。</p>
+<h1 id="本地文件系统存储"><a href="#本地文件系统存储" class="headerlink" title="本地文件系统存储"></a>本地文件系统存储</h1><p>本地文件系统存储仅在离线版提供支持。</p>
+<h2 id="新建-2"><a href="#新建-2" class="headerlink" title="新建"></a>新建</h2><p>参考<code>evernote/印象笔记</code>的<code>新建</code></p>
+<h2 id="打开-2"><a href="#打开-2" class="headerlink" title="打开"></a>打开</h2><p>参考<code>github/dropbox</code>的<code>打开</code><br>不同的是，本地文件系统存储在打开文件时，将会自动关联文章内的附件引用标识<code>./</code>，自动抓取同级目录下对应的附件资源。</p>
+<h2 id="保存-2"><a href="#保存-2" class="headerlink" title="保存"></a>保存</h2><p>参考<code>github/dropbox</code>的<code>保存</code><br>不同的是，本地文件系统存储在保存时，不仅保存了markdown文章，还会处理附件相关的内容，将附件保存到同级目录下，请确保附件的名称不要重复，防止数据被覆盖丢失。</p>
+<h2 id="删除-2"><a href="#删除-2" class="headerlink" title="删除"></a>删除</h2><p>右击相应的文章可进行删除操作</p>
+<h2 id="重命名-2"><a href="#重命名-2" class="headerlink" title="重命名"></a>重命名</h2><p>右击相应的文章可进行重命名操作</p>
+<h1 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h1><p>小书匠编辑器<strong>离线版</strong>提供文章发布功能，用户可以将自己的文章发布到博客系统上。发布功能实现了博客的metaweblogAPI（newPost, editPost, newMediaObject）。使用该发布功能，需要博客系统提供对应的api接口，系统将转换成html的文章和图片自动提交到博客系统上。</p>
+<p><strong>配置发布示例：</strong><br>博客链接地址：比如<code>http://www.cnblogs.com/[用户名]/</code><br>用户名：用户在该博客上的用户名<br>密码：用户在该博客上的密码</p>
+<p><strong>测试通过的博客地址：</strong><br>博客园：<code>http://www.cnblogs.com/[用户名]/</code><br>开源中国：<code>http://my.oschina.net/[用户名]/blog</code></p>
+<h1 id="邮件发送"><a href="#邮件发送" class="headerlink" title="邮件发送"></a>邮件发送</h1><p>小书匠编辑器提供邮件发送功能，系统将对当前文章转换成html格式后进行发送，并对图片，视频等文件以附件的形式进行发送。</p>
+<h1 id="导出"><a href="#导出" class="headerlink" title="导出"></a>导出</h1><p>小书匠编辑器提供多种格式的导出文件功能。==html==,==markdown==,==html(inlinestyle)==,==word==,==zip==,==pdf==。</p>
+<p><strong>zip导出</strong>： 该导出将导出文章的所有信息，包括markdown,html,markdown文章内引用的所有附件，公式，流程图等对应的图片文件，以及方便再次导入时需要的标识数据文件。</p>
+<p><strong>pdf导出</strong>：目前pdf导出只能在chrome版浏览器上使用。</p>
+<h1 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h1><p>小书匠编辑器提供markdown, html, zip三种导入功能，并且实现了文本文件直接拖动导入功能。</p>
+<p><strong>zip导入</strong>：导入的zip文件必需是由小书匠编辑器导出的文件。</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>web版实现了图片直接粘贴功能，用户不仅可以拖动图片上传，还可以直接复制粘贴图片。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Markdown/" rel="tag"># Markdown</a>
+          
+            <a href="/tags/语法/" rel="tag"># 语法</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/01/07/book/" rel="next" title="以书为伴">
+                <i class="fa fa-chevron-left"></i> 以书为伴
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://q673230559.github.io/head.jpg"
+               alt="Xudong.Han" />
+          <p class="site-author-name" itemprop="name">Xudong.Han</p>
+          <p class="site-description motion-element" itemprop="description">Still waters run deep</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tages">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概要"><span class="nav-number">1.</span> <span class="nav-text">概要</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#主要功能"><span class="nav-number">2.</span> <span class="nav-text">主要功能</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#离线版下载地址"><span class="nav-number">3.</span> <span class="nav-text">离线版下载地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#WEB版访问地址"><span class="nav-number">4.</span> <span class="nav-text">WEB版访问地址</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#元数据使用说明"><span class="nav-number">5.</span> <span class="nav-text">元数据使用说明</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#浏览器存储"><span class="nav-number">6.</span> <span class="nav-text">浏览器存储</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题，标签"><span class="nav-number">6.1.</span> <span class="nav-text">标题，标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#附件"><span class="nav-number">6.2.</span> <span class="nav-text">附件</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#evernote-印象笔记"><span class="nav-number">7.</span> <span class="nav-text">evernote/印象笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#新建"><span class="nav-number">7.1.</span> <span class="nav-text">新建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#打开"><span class="nav-number">7.2.</span> <span class="nav-text">打开</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#保存"><span class="nav-number">7.3.</span> <span class="nav-text">保存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除"><span class="nav-number">7.4.</span> <span class="nav-text">删除</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重命名"><span class="nav-number">7.5.</span> <span class="nav-text">重命名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#标签管理"><span class="nav-number">7.6.</span> <span class="nav-text">标签管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#附件管理"><span class="nav-number">7.7.</span> <span class="nav-text">附件管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#待办事项"><span class="nav-number">7.8.</span> <span class="nav-text">待办事项</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#github-dropbox"><span class="nav-number">8.</span> <span class="nav-text">github/dropbox</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#新建-1"><span class="nav-number">8.1.</span> <span class="nav-text">新建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#打开-1"><span class="nav-number">8.2.</span> <span class="nav-text">打开</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#保存-1"><span class="nav-number">8.3.</span> <span class="nav-text">保存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除-1"><span class="nav-number">8.4.</span> <span class="nav-text">删除</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重命名-1"><span class="nav-number">8.5.</span> <span class="nav-text">重命名</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#本地文件系统存储"><span class="nav-number">9.</span> <span class="nav-text">本地文件系统存储</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#新建-2"><span class="nav-number">9.1.</span> <span class="nav-text">新建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#打开-2"><span class="nav-number">9.2.</span> <span class="nav-text">打开</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#保存-2"><span class="nav-number">9.3.</span> <span class="nav-text">保存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除-2"><span class="nav-number">9.4.</span> <span class="nav-text">删除</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重命名-2"><span class="nav-number">9.5.</span> <span class="nav-text">重命名</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#发布"><span class="nav-number">10.</span> <span class="nav-text">发布</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#邮件发送"><span class="nav-number">11.</span> <span class="nav-text">邮件发送</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#导出"><span class="nav-number">12.</span> <span class="nav-text">导出</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#导入"><span class="nav-number">13.</span> <span class="nav-text">导入</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他"><span class="nav-number">14.</span> <span class="nav-text">其他</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xudong.Han</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+      <!-- UY BEGIN -->
+      <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid="></script>
+      <!-- UY END -->
+  
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>
