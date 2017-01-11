@@ -1,7 +1,7 @@
 ---
 title: Markdown效果预览
 date: 2017-01-010 16:29:54
-tags: [Markdown,语法]
+tags: [Markdown,语言]
 categories: Markdown
 ---
 # 概要
