@@ -7,7 +7,7 @@ categories: 美文
 ## YOUTH 
 
 **Samuel Ullman** 
-
+->![箭竹](./youth/youth.jpg)<-
 Youth is not a time of life; it is a state of mind; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of the imagination, a vigor of the emotions; it is the freshness of the deep springs of life. 
 <!--more-->
 Youth means a tempera-mental predominance of courage over timidity, of the appetite for adventure over the love of ease. This often exists in a man of 60 more than a boy of 20.　Nobody grows old merely by a number of years.　We grow old by deserting our ideals. 
