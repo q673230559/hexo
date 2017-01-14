@@ -2,7 +2,7 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-avatar: https://q673230559.github.io/head.jpg
+avatar: /pic/head.jpg
 
 # Site
 title: 静水流深
