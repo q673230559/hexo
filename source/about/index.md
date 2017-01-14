@@ -3,10 +3,10 @@ title: 关于我
 date: 2017-01-09 16:37:22
 type: "about"
 ---
-### Email: *451367682@qq.com*
+&emsp;&emsp;Email: *451367682@qq.com*
 
-### WeChat: *hs_hxd2014*
+&emsp;&emsp;WeChat: *hs_hxd2014*
 
-### git@Github: *http://q673230559.github.io*
+&emsp;&emsp;git@Github: *https://github.com/q673230559*
 
-### svn@taobao: *http://code.taobao.org/u/q673230559/*
+&emsp;&emsp;svn@taobao: *http://code.taobao.org/u/q673230559/*
