@@ -318,6 +318,7 @@ duoshuo_info:
   ua_enable: true
   admin_enable: false
   user_id: 0
+  data_author_key: 1 #此处填写上面js脚本中的data变量中的users[0][user_key]的值，因为上面为1，这里我就填写为1了。
   #admin_nickname: Author
 
 
