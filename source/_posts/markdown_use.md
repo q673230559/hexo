@@ -6,7 +6,7 @@ categories: Markdown
 ---
 # 概要
 
-> **小书匠是**一款专为markdown写作而设计的编辑器。
+&emsp;&emsp;小书匠是一款专为markdown写作而设计的编辑器。
 
 # 主要功能
 1. **专为markdown写作设计的文档编辑器**，让用户心无旁骛的进行创作。
