@@ -3,17 +3,8 @@ title: Youth(青春)
 date: 2017-01-06 14:20:33
 tags: [青春,激情]
 categories: 美文
+description: <div align = "left">&emsp;&emsp;塞缪尔·厄儿曼既不是诗人，也不是作家，他一生就只写了这一首散文诗，而且是在他七十余岁高龄时写下来自勉的。后来偶然间由朋友不经意传出，立即受到了许多人喜爱，他们纷纷将其作为自己的人生格言，挂在墙上、放入衣兜、置入心灵深出，伴随自己一生，共同沐浴风雨阳光。塞缪尔·厄儿曼虽然已经去世快两个世纪了，但是他的这首《青春》仍然不减当年风采，依旧拥有震撼人心的力度，如诗如画的优美和深邃隽永的哲理。 青春是美好的，花样般的年华，白里透红的桃面，樱桃般的丹唇，弱柳扶风般的柔膝；勇敢的锐气，远大的理想，炽热的感情，青春是人一生中最美好的季节。</div>
 ---
-## YOUTH 
-
-**Samuel Ullman** 
-
-&emsp;&emsp;Youth is not a time of life; it is a state of mind; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of the imagination, a vigor of the emotions; it is the freshness of the deep springs of life. ![youth](/pic/youth.jpg)<!--more-->
-&emsp;&emsp;Youth means a tempera-mental predominance of courage over timidity, of the appetite for adventure over the love of ease. This often exists in a man of 60 more than a boy of 20.　Nobody grows old merely by a number of years.　We grow old by deserting our ideals. ![youth](/pic/p2.jpg)
-&emsp;&emsp;Years may wrinkle the skin, but to give up enthusiasm wrinkles the soul. Worry, fear, self-distrust bows the heart and turns the spring back to dust. 
-&emsp;&emsp;Whether 60 or 16, there is in every human being’s heart the lure of wonder, the unfailing childlike appetite of what’s next and the joy of the game of living.　In the center of your heart and my heart there is a wireless station: so long as it receives messages of beauty, hope, cheer, courage and power from men and from the Infinite, so long are you young. 
-&emsp;&emsp;When the aerials are down, and your spirit is covered with snows of cynicism and the ice of pessimism, then you are grown old, even at 20, but as long as your aerials are up, to catch waves of optimism, there is hope you may die young at 80.
-
 ## 青春 
 
 **塞缪尔**
@@ -23,3 +14,12 @@ categories: 美文
 &emsp;&emsp;岁月悠悠，衰微只及肌肤；热忱抛却，颓废必致灵魂。忧烦，惶恐，丧失自信，定使心灵扭曲，意气如灰。 
 &emsp;&emsp;无论年届花甲，拟或二八芳龄，心中皆有生命之欢乐，奇迹之诱惑，孩童般天真久盛不衰。人人心中皆有一台天线，只要你从天上人间接受美好、希望、欢乐、勇气和力量的信号，你就青春永驻，风华常存。 
 &emsp;&emsp;一旦天线下降，锐气便被冰雪覆盖，玩世不恭、自暴自弃油然而生，即使年方二十，实已垂垂老矣；然则只要树起天线，捕捉乐观信号，你就有望在八十高龄告别尘寰时仍觉年轻。
+## YOUTH 
+
+**Samuel Ullman** 
+
+&emsp;&emsp;Youth is not a time of life; it is a state of mind; it is not a matter of rosy cheeks, red lips and supple knees; it is a matter of the will, a quality of the imagination, a vigor of the emotions; it is the freshness of the deep springs of life. 
+&emsp;&emsp;Youth means a tempera-mental predominance of courage over timidity, of the appetite for adventure over the love of ease. This often exists in a man of 60 more than a boy of 20.　Nobody grows old merely by a number of years.　We grow old by deserting our ideals. 
+&emsp;&emsp;Years may wrinkle the skin, but to give up enthusiasm wrinkles the soul. Worry, fear, self-distrust bows the heart and turns the spring back to dust. 
+&emsp;&emsp;Whether 60 or 16, there is in every human being’s heart the lure of wonder, the unfailing childlike appetite of what’s next and the joy of the game of living.　In the center of your heart and my heart there is a wireless station: so long as it receives messages of beauty, hope, cheer, courage and power from men and from the Infinite, so long are you young. 
+&emsp;&emsp;When the aerials are down, and your spirit is covered with snows of cynicism and the ice of pessimism, then you are grown old, even at 20, but as long as your aerials are up, to catch waves of optimism, there is hope you may die young at 80.
