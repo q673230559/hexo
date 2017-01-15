@@ -1,5 +1,5 @@
 ---
-title: Youth(青春)
+title: 致橡树
 date: 2017-01-15 14:20:33
 tags: 爱情
 categories: 诗意
@@ -10,7 +10,7 @@ categories: 诗意
 我如果爱你——
 绝不像攀援的凌霄花， 
 借你的高枝炫耀自己； 
-![oak](/pic/oak.jpg)
+![oak](/pic/oak.jpg)<!--more-->
 我如果爱你—— 
 绝不学痴情的鸟儿， 
 为绿荫重复单调的歌曲； 
