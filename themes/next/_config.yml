@@ -220,7 +220,7 @@ post_meta:
 
 
 # Wechat Subscriber
-wechat_subscriber:
+#wechat_subscriber:
   enabled: true
   qcode: /pic/wechat.png
   description: hs_hxd2014
