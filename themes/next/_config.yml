@@ -477,3 +477,8 @@ images: images
 
 # Theme version
 version: 5.1.0
+
+leancloud_visitors:
+  enable: true
+  app_id: y1v6ImpLFxjpcx2IjlI7N7cc-gzGzoHsz
+  app_key: mVXWWzQsjfwwrhzvqcKHLh1A
