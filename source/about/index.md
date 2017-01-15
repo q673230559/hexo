@@ -2,6 +2,7 @@
 title: 关于我
 date: 2017-01-09 16:37:22
 type: "about"
+comments: false
 ---
 #### PersonalInfo:
 &emsp;&emsp;Email: *451367682@qq.com*
