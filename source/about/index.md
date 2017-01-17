@@ -28,6 +28,6 @@ comments: false
 &emsp;&emsp;*http://121.40.181.100/cloud/* *(域名过期)*
 
 &emsp;&emsp;小型ERP系统--黄石食真田园系统:
-[](/pic/ims.png)
+![](/pic/ims.png)
 &emsp;&emsp;*http://121.40.181.100/ims/*
 
