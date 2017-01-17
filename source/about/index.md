@@ -14,21 +14,21 @@ comments: false
 &emsp;&emsp;svn@taobao: *http://code.taobao.org/u/q673230559/*
 
 #### Works:
-&emsp;&emsp;研究生精品课程-当代中国审美文化研究网: 
-&emsp;&emsp;*http://www.chl.hbnu.edu.cn/literature/*
+研究生精品课程-当代中国审美文化研究网: 
+*http://www.chl.hbnu.edu.cn/literature/*
 
-&emsp;&emsp;湖北师范学院文理学院--第一届“我最喜爱的老师”评选投票网: 
-&emsp;&emsp;*http://www.chl.hbnu.edu.cn/literature/*
+湖北师范学院文理学院--第一届“我最喜爱的老师”评选投票网: 
+*http://www.chl.hbnu.edu.cn/literature/*
 
-&emsp;&emsp;教育信息与技术学院--教育信息虚拟仿真实验教学中心:
+教育信息与技术学院--教育信息虚拟仿真实验教学中心:
 ![](/pic/virtual.png)
-&emsp;&emsp;*http://www.et.hbnu.edu.cn/virtual/*
+*http://www.et.hbnu.edu.cn/virtual/*
 
-&emsp;&emsp;湖师校园服务网站--湖师大在线资源共享模块:
+湖师校园服务网站--湖师大在线资源共享模块:
 ![](/pic/cloud.png)
-&emsp;&emsp;*http://121.40.181.100/cloud/* *(域名过期)*
+*http://121.40.181.100/cloud/* *(域名过期)*
 
-&emsp;&emsp;小型ERP系统--黄石食真田园系统:
+小型ERP系统--黄石食真田园系统:
 ![](/pic/ims.png)
-&emsp;&emsp;*http://121.40.181.100/ims/*
+*http://121.40.181.100/ims/*
 
