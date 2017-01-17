@@ -24,7 +24,8 @@ comments: false
 &emsp;&emsp;*http://www.et.hbnu.edu.cn/virtual/*
 
 &emsp;&emsp;湖师校园服务网站--湖师大在线资源共享模块:
-&emsp;&emsp;*http://121.40.181.100/cloud/(域名过期)*
+&emsp;&emsp;![](/pic/cloud.png)
+&emsp;&emsp;*http://121.40.181.100/cloud/**(域名过期)*
 
 &emsp;&emsp;小型ERP系统--黄石食真田园系统: 
 &emsp;&emsp;*http://121.40.181.100/ims/*
