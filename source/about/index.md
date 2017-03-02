@@ -15,10 +15,12 @@ comments: false
 
 #### Works:
 &emsp;&emsp;研究生精品课程-当代中国审美文化研究网:
+![](/pic/literature.png)
 &emsp;&emsp;*http://www.chl.hbnu.edu.cn/literature/*
 
-&emsp;&emsp;湖北师范学院文理学院--第一届“我最喜爱的老师”评选投票网: 
-&emsp;&emsp;*http://www.chl.hbnu.edu.cn/literature/*
+&emsp;&emsp;湖北师范学院文理学院--第一届“我最喜爱的老师”评选投票网:
+![](/pic/vote.png)
+&emsp;&emsp;*http://www.wlxy.hbnu.edu.cn/vote/*
 
 &emsp;&emsp;教育信息与技术学院--教育信息虚拟仿真实验教学中心:
 ![](/pic/virtual.png)
