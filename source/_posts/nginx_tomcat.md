@@ -5,11 +5,6 @@ date: 2017-03-30 09:12:50
 tags: [nginx,tomcat]
 categories: Http服务
 ---
----
-title: Markdown效果预览
-
-
----
 
 web上的server都叫web server，但是大家分工也有不同的。
 
