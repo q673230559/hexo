@@ -1,10 +1,8 @@
 ---
 title: 文件规范
-tags: 新建,模板,小书匠
 date: 2017-01-01 9:29:54
-tags: [Markdown,语言]
-grammar_cjkRuby: true
-categories: Markdown
+tags: [Markdown]
+categories: 技术
 ---
 # md文件头格式规范
 ``` stylus
@@ -22,10 +20,8 @@ categories: Markdown
  - 文档
  - 技术
  - 摄影
- -
 
 ## tags
-
 
  - tomcat
  - nginx
