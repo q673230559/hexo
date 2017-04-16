@@ -19,7 +19,7 @@ categories: Markdown
  - 诗歌
  - 文档
  - 技术
- - 摄影
+ - 摄影<!--more-->
 
 ## tags
 
