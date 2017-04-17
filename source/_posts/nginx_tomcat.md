@@ -2,8 +2,8 @@
 layout: default
 title: nginx和tomcat的区别
 date: 2017-03-30 09:12:50
-tags: [nginx,tomcat]
-categories: Http服务
+tags: [nginx,tomcat,http服务]
+categories: 技术
 ---
 
 web上的server都叫web server，但是大家分工也有不同的。
