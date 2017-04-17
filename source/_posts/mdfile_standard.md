@@ -1,7 +1,7 @@
 ---
 title: MD文件规范
 date: 2017-01-01 9:29:54
-tags: [Markdown]
+tags: [markdown]
 categories: 技术
 ---
 # 文件头格式规范
@@ -27,7 +27,7 @@ categories: 技术
  - 青春
  - markdown
  - 读书
- - js
+ - js<!--more-->
  - ajax
  - 前端
  - html5
@@ -39,7 +39,7 @@ categories: 技术
  - 诗歌
  - 文档
  - 技术
- - 摄影<!--more-->
+ - 摄影
 
 ## description
  - 文章概述，如果不为空，则预览的时候显示后标签后面的内容（作用和正文中的分隔符作用差不多）
