@@ -6,7 +6,7 @@ comments: false
 tags: 
  - 励志
 categories: 文言
-permalink: to_sons
-render_drafts: false
+permalink: to_drafts
+render_drafts: true
 ---
 sdfsdf
