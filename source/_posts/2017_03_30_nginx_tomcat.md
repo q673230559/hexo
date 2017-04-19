@@ -7,8 +7,8 @@ tags: [nginx,tomcat,http服务]
 categories: 技术
 permalink: nginx_tomcat
 ---
-# 摘要
-> nginx
+>*摘要：* nginx
+
 # 正文
 web上的server都叫web server，但是大家分工也有不同的。
 nginx常用做静态内容服务和代理服务器（不是你FQ那个代理），直面外来请求转发给后面的应用服务（tomcat，django什么的），tomcat更多用来做做一个应用容器，让java web app跑在里面的东西，对应同级别的有jboss,jetty等东西。
