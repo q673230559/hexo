@@ -7,7 +7,7 @@ tags: [nginx,tomcat,http服务]
 categories: 技术
 permalink: nginx_tomcat
 ---
-> &emsp;&emsp;nginx
+> &emsp;&emsp;记得当年开始学习javaweb的时候，最先接触的是tomcat，
 
 &emsp;&emsp;web上的server都叫web server，但是大家分工也有不同的。
 
