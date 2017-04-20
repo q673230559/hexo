@@ -3,9 +3,9 @@ title: nginx和tomcat的区别
 layout: default
 date: 2017-03-30 09:12:50
 comments: false
-tags: [nginx,tomcat,http服务]
+tags: [nginx,tomcat,http]
 categories: 技术
-permalink: nginx_tomcat
+permalink: nginxx_tomcat
 ---
 > &emsp;&emsp;记得当年开始学习javaweb的时候，最先接触的是tomcat，
 
