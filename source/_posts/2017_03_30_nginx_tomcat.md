@@ -7,7 +7,7 @@ tags: [nginx,tomcat,http服务]
 categories: 技术
 permalink: nginx_tomcat
 ---
->*摘要：* nginx
+> &emsp;&emsp;nginx
 
 # 正文
 web上的server都叫web server，但是大家分工也有不同的。
