@@ -1,7 +1,7 @@
 ---
 title: Markdown效果预览
 date: 2017-01-01 16:29:54
-tags: [markdown,语言]
+tags: [markdown,小书匠]
 categories: 技术
 permalink: markdown_use
 ---

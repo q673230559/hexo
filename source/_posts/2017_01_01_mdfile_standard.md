@@ -37,13 +37,15 @@ permalink: file_standard
  - tomcat
  - nginx
  - java
- - 青春
  - markdown
- - 读书
  - js
  - ajax
- - 前端
  - html5
+ - 前端
+ - 青春
+ - 励志
+ - 读书
+ - 激情
  - ...
 
 ## categories
