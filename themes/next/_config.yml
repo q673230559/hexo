@@ -514,7 +514,7 @@ canvas_sphere: true
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: true
+canvas_ribbon: false
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
