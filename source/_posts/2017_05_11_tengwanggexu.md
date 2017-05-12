@@ -1,5 +1,5 @@
 ---
-title: 荐《滕王阁序》
+title: 重温滕王阁
 date: 2017-05-11 14:32:00
 comments: false
 tags: [读书]
