@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Hello, welcome"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -22,13 +22,21 @@ authoricon: heart
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
 
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
-# Tips: Before you open this tag, remeber set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
+# Tips: Before you open this tag, remember set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
 seo: false
+
+# If true, will add site-subtitle to index page, added in main hexo config.
+# subtitle: Subtitle
+index_with_subtitle: false
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -39,7 +47,7 @@ menu:
   home: /
   categories: /categories
   archives: /archives
-  tags: /tages
+  tags: /tags
   about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
@@ -48,7 +56,7 @@ menu:
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
-#   Key is the name of menu item and value is the name of FontAwsome icon. Key is case-senstive.
+#   Key is the name of menu item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an question mask icon presenting up means that the item has no mapping icon.
 menu_icons:
   enable: true
@@ -70,8 +78,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
-# scheme: Mist
+#scheme: Muse
+#scheme: Mist
 scheme: Pisces
 
 
@@ -79,7 +87,7 @@ scheme: Pisces
 # Font Settings
 # - Find fonts on Google Fonts (https://www.google.com/fonts)
 # - All fonts set here will have the following styles:
-#     light, light italic, normal, normal intalic, bold, bold italic
+#     light, light italic, normal, normal italic, bold, bold italic
 # - Be aware that setting too much fonts will cause site running slowly
 # - Introduce in 5.0.1
 # ---------------------------------------------------------------
@@ -135,18 +143,17 @@ font:
 social:
   GitHub: https://github.com/q673230559
   Weibo: http://weibo.com/u/2314533882
-  # LinkLabel: Link
 
 
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
-#   Key is the name of the item and value is the name of FontAwsome icon. Key is case-senstive.
+#   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: true
   # Icon Mappings.
-  KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
+  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
   Weibo: weibo
@@ -175,24 +182,34 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  #position: left
   position: left
+  #position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
-  #  - remove  Totally remove sidebar including sidebar toggler.
+  #  - remove  Totally remove sidebar including sidebar toggle.
+  #display: post
   display: always
-  #display: always
   #display: hide
   #display: remove
 
+  # Sidebar offset from top menubar in pixels.
+  offset: 12
+  offset_float: 0
 
-# Blogrolls
+  # Back to top in sidebar
+  b2t: false
+
+  # Scroll percent label in b2t button
+  scrollpercent: false
+
+
+# Blog rolls
 links_title: 链接
-# links_layout: block
-links_layout: inline
+links_layout: block
+#links_layout: inline
 links:
   NexT官网: http://theme-next.iissnan.com/
   NexT作者博客: http://notes.iissnan.com/
@@ -202,7 +219,6 @@ links:
   Django: http://www.ziqiangxuetang.com/django/django-url-name.html
 
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
@@ -210,10 +226,13 @@ links:
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
 
+# Automatically saving scroll position on each post/page in cookies.
+save_scroll: false
+
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
 
-# Automatically Excerpt. Not recommand.
+# Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
@@ -226,12 +245,24 @@ post_meta:
   updated_at: false
   categories: true
 
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: false
+  min2read: false
 
 # Wechat Subscriber
 #wechat_subscriber:
   enabled: true
   qcode: /pic/wechat.png
   description: hs_hxd2014
+
+# Declare license on posts
+post_copyright:
+  enable: false
+  license: CC BY-NC-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 
 
 
@@ -253,8 +284,8 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
+#highlight_theme: normal
 highlight_theme: night eighties
-
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -267,6 +298,9 @@ mathjax:
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
+# Han Support docs: https://hanzi.pro/
+han: false
+
 # Swiftype Search API Key
 #swiftype_key:
 
@@ -274,10 +308,13 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-# duoshuo_shortname: rundeep
+#duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus:
+  enable: false
+  shortname:
+  count: true
 
 # Hypercomments
 #hypercomments_id:
@@ -285,9 +322,19 @@ mathjax:
 # Gentie productKey
 #gentie_productKey:
 
+# changyan
+changyan:
+  enable: false
+  appid:
+  appkey:
+
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
 #youyan_uid: your uid
+
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+#livere_uid: your uid
 
 # Baidu Share
 # Available value:
@@ -308,9 +355,12 @@ mathjax:
 # See: https://www.google.com/webmasters/
 #google_site_verification:
 
-
 # Google Analytics
 #google_analytics:
+
+# Yandex Webmaster tools verification setting
+# See: https://webmaster.yandex.ru/
+#yandex_site_verification:
 
 # CNZZ count
 #cnzz_siteid:
@@ -328,6 +378,7 @@ duoshuo_info:
   user_id: 0
   data_author_key: 1
   admin_nickname: Author
+  #admin_nickname: Author
 
 
 # Facebook SDK Support.
@@ -347,6 +398,15 @@ facebook_comments_plugin:
   num_of_posts: 10  # min posts num is 1
   width: 100%       # default width is 550px
   scheme: light     # default scheme is light (light or dark)
+
+# VKontakte API Support.
+# To get your AppID visit https://vk.com/editapp?act=create
+vkontakte_api:
+  enable: false
+  app_id:       #<app_id>
+  like:         true
+  comments:     true
+  num_of_posts: 10
 
 
 # Show number of visitors to each article.
@@ -377,6 +437,9 @@ busuanzi_count:
 
 # Tencent analytics ID
 # tencent_analytics:
+
+# Tencent MTA ID
+# tencent_mta:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
@@ -410,6 +473,20 @@ algolia_search:
     hits_stats: "${hits} results found in ${time} ms"
 
 
+# Local search
+local_search:
+  enable: false
+  # if auto, trigger search by changing input
+  # if manual, trigger search by pressing enter key or search button
+  trigger: auto
+  # show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+
+# External URL with BASE64 encrypt & decrypt
+# Usage: {% exturl text url "title" %}
+# Alias: {% extlink text url "title" %}
+exturl: false
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -423,7 +500,20 @@ use_motion: true
 fancybox: true
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
+
+# three_waves
+three_waves: false
+
+# canvas_lines
+canvas_lines: false
+
+# canvas_sphere
+canvas_sphere: false
+
+# Only fit scheme Pisces
+# Canvas-ribbon
+canvas_ribbon: false
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
@@ -476,6 +566,29 @@ vendors:
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
 
+  # three
+  three:
+
+  # three_waves
+  # https://github.com/jjandxa/three_waves
+  three_waves:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_lines
+  canvas_lines:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_sphere
+  canvas_sphere:
+
+  # Internal version: 1.0.0
+  # https://github.com/zproo/canvas-ribbon
+  canvas_ribbon:
+
+  # Internal version: 3.3.0
+  # https://github.com/ethantw/Han
+  han:
+
 
 
 # Assets
@@ -484,5 +597,4 @@ js: js
 images: images
 
 # Theme version
-version: 5.1.0
-
+version: 5.1.1
