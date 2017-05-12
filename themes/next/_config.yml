@@ -114,6 +114,7 @@ font:
   posts:
     external: true
     family:
+    size: 12
 
   # Font settings for Logo
   # Fallback to `global` font settings.
@@ -503,17 +504,17 @@ fancybox: true
 canvas_nest: false
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
-canvas_lines: false
+canvas_lines: true
 
 # canvas_sphere
-canvas_sphere: false
+canvas_sphere: true
 
 # Only fit scheme Pisces
 # Canvas-ribbon
-canvas_ribbon: false
+canvas_ribbon: true
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
