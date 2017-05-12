@@ -2,7 +2,7 @@
 title: 誓刷红楼，品味经典
 date: 2017-05-11 16:08:00
 comments: false
-tags: [读书,佳句]
+tags: [读书,佳句,红楼梦]
 categories: 美文
 permalink: dream_of_red
 ---
