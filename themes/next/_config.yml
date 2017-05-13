@@ -50,7 +50,7 @@ menu:
   tags: /tages
   about: /about
   message: /message
-  sitemap: /sitemap.xml
+  #sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
