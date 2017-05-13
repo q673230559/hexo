@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 public/*
 .project
 hexo.iml
+=======
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+public/*
+.project
+hexo.iml
+>>>>>>> e70041fce4d0fd5588987765f8e86244c80cd2d2
