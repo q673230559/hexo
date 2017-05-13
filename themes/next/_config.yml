@@ -49,7 +49,7 @@ menu:
   archives: /archives
   tags: /tages
   about: /about
-  message: /message
+  留言: /message
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -70,7 +70,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-  message: message
+  留言: message
 
 
 
