@@ -122,7 +122,7 @@ font:
   logo:
     external: true
     family:
-    size:
+    size: 20px
 
   # Font settings for <code> and code blocks.
   codes:
@@ -214,9 +214,10 @@ links_layout: block
 links:
   NexT官网: http://theme-next.iissnan.com/
   NexT作者博客: http://notes.iissnan.com/
+  二次元の技术宅: http://www.maoxuner.cn/
   git教程: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
   python教程: http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
-  RUNOOB.COM: http://www.runoob.com/
+  RUNOOB: http://www.runoob.com/
   Django: http://www.ziqiangxuetang.com/django/django-url-name.html
 
 
