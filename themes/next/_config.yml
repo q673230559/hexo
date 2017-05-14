@@ -123,8 +123,8 @@ font:
   # The `size` option use `px` as unit
   logo:
     external: true
-    family: Great Vibes
-    size: 28
+    family: Lobster Two
+    size: 24
 
   # Font settings for <code> and code blocks.
   codes:
