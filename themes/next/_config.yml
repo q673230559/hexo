@@ -97,13 +97,13 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host: //cdn.bootcss.com/webfont/1.6.27/webfontloader.js
+  host:
 
   # Global font settings used on <body> element.
   global:
     # external: true will load this font family from host.
     external: true
-    family: 微软雅黑
+    family:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
@@ -115,8 +115,8 @@ font:
   # Fallback to `global` font settings.
   posts:
     external: true
-    family: 微软雅黑
-    size: 10
+    family:
+
 
   # Font settings for Logo
   # Fallback to `global` font settings.
