@@ -10,7 +10,6 @@ comments: false
 # 友情链接
 **&emsp;排名不分先后，纯粹是加链时间顺序**
 - [IIssnan's Notes](http://notes.iissnan.com/)
-> 这个是nexT这款hexo主题框架的作者的博客，心目中的大神。
 
 # 学习链接
 **&emsp;学习过的，还不错的站点入口**
