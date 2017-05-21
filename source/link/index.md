@@ -5,8 +5,9 @@ type: "link"
 comments: false
 ---
 # 初衷
+{% note warning %}
 &emsp;&emsp;我建站的目的，最主要的是记录，然后才是分享。因为首页空间有限不能记录太多的链接，开辟这个模块是为了方便记录更多的友情链接和使用链接，这些链接的存在，是一个羁绊，见证在这个网络世界，我们彼此关联着。如果你想和我互相链接，烦请留言。  
-
+{% endnote %}
 # 友情链接
 &emsp;&emsp;排名不分先后，纯粹是加链时间顺序
 - [IIssnan's Notes](http://notes.iissnan.com/)

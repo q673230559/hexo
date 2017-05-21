@@ -9,11 +9,13 @@ comments: false
 
 &emsp;&emsp;WeChat: *hs_hxd2014*
 
+&emsp;&emsp;QQ: *451367682*
+
 &emsp;&emsp;git@Github: *https://github.com/q673230559*
 
 &emsp;&emsp;svn@taobao: *http://code.taobao.org/u/q673230559/*
 
-#### Works（2013-2015）:
+#### SomeWorks（2013-2015）:
 
 &emsp;&emsp;研究生精品课程-当代中国审美文化研究网:
 &emsp;&emsp;*http://www.chl.hbnu.edu.cn/literature/*
@@ -28,7 +30,7 @@ comments: false
 &emsp;&emsp;![](/pic/virtual.png)
 
 &emsp;&emsp;湖师校园服务网站--湖师大在线资源共享模块:
-&emsp;&emsp;*http://121.40.181.100/cloud/* *(域名过期)*
+&emsp;&emsp;*http://121.40.181.100/cloud/*
 &emsp;&emsp;![](/pic/cloud.png)
 
 &emsp;&emsp;小型ERP系统--黄石食真田园系统:
