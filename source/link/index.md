@@ -11,7 +11,6 @@ comments: false
 # 友情链接
 &emsp;&emsp;排名不分先后，纯粹是加链时间顺序
 - [IIssnan's Notes](http://notes.iissnan.com/)
-
 # 学习链接
 &emsp;&emsp;学习过的，还不错的站点入口
 - [NexT文档](http://theme-next.iissnan.com/)
@@ -19,8 +18,7 @@ comments: false
 - [python教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
 - [Django基础教程](http://code.ziqiangxuetang.com/django/django-tutorial.html)
 - [RUNOOB.COM](http://www.runoob.com/)
-
-# 其他入口  
+# 其他入口
 &emsp;&emsp;记录在这儿方便许多，免得又去百度
 - [百度统计](https://tongji.baidu.com/web/welcome/login)
 - [网易云跟贴](https://gentie.163.com/)
