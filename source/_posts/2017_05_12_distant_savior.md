@@ -6,6 +6,11 @@ tags: [读书,佳句,豆豆,遥远的救世主]
 categories: 小说
 permalink: distant_savior
 ---
+<a href="http://slack.kotlinlang.org/"><img src="http://slack.kotlinlang.org/badge.svg" height="20"></a>
+[![TeamCity (simple build status)](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg)](https://teamcity.jetbrains.com/viewType.html?buildTypeId=bt345&branch_Kotlin=%3Cdefault%3E&tab=buildTypeStatusDiv)
+[![Maven Central](https://img.shields.io/maven-central/v/org.jetbrains.kotlin/kotlin-maven-plugin.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.jetbrains.kotlin%22)
+[![GitHub license](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0)
+
 > &emsp;&emsp;不知道是谁推荐过《遥远的救世主》，也不知怎么就把它和《天道》相连，以为是两本书，总之就是记住了。后来知道《天道》是电视剧，众人捧的热烈，改编自这本书。很偶然的机会，图书馆里看到了它，就借来一观。五十万字，不是随意打发下午时光就可看完的。小说里佛学的光辉、哲学的深奥与“禅”的玄机不谈，“文化属性”也不说，这不是我如今的知识层面所能评判的，仅能在思想上被“灌输”而已，然后再顺便感慨几句晦涩难懂，大呼看不明白，作者有才。废话不多说，列些句子，慢慢品味。
 
 # 品读佳句
