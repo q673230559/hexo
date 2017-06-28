@@ -15,6 +15,7 @@ comments: false
 
 # 其他链接
 &emsp;&emsp;记录在这儿方便许多，免得又去百度
+- [StatCounter](http://gs.statcounter.com/)
 - [IT eBooks](http://www.allitebooks.com/)
 - [百度统计](https://tongji.baidu.com/web/welcome/login)
 - [网易云跟贴](https://gentie.163.com/)
