@@ -11,10 +11,11 @@ comments: false
 
 # 友情链接
 &emsp;&emsp;排名不分先后，纯粹是加链时间顺序
-- [IIssnan's Notes](http://notes.iissnan.com/)  
+- [IIssnan's Notes](http://notes.iissnan.com/)
 
 # 其他链接
 &emsp;&emsp;记录在这儿方便许多，免得又去百度
+- [Libraries](https://libraries.io/)
 - [StatCounter](http://gs.statcounter.com/)
 - [IT eBooks](http://www.allitebooks.com/)
 - [百度统计](https://tongji.baidu.com/web/welcome/login)
