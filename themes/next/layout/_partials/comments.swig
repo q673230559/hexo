@@ -4,7 +4,7 @@
         <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
         <script src='/lib/Valine.min.js'></script>
         <script>
-            var valine = new Valine({
+            new Valine({
                 av: AV,
                 el: '.comment',
                 app_id: '{{ theme.valine.appId }}',
