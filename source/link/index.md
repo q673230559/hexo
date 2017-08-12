@@ -19,7 +19,6 @@ comments: false
 - [StatCounter](http://gs.statcounter.com/)
 - [IT eBooks](http://www.allitebooks.com/)
 - [百度统计](https://tongji.baidu.com/web/welcome/login)
-- [网易云跟贴](https://gentie.163.com/)
 - [LeanCloud](https://leancloud.cn/)
 - [NexT文档](http://theme-next.iissnan.com/)
 - [Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)

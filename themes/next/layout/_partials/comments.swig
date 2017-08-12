@@ -4,9 +4,11 @@
         <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
         <script src='/lib/Valine.min.js'></script>
         <script>
-            new Valine({
+            var valine = new Valine({
                 av: AV,
-                el: '.comments' ,
+                notify: true, // 邮件提醒
+                verify: true, // 验证码
+                el: '.comment',
                 app_id: '{{ theme.valine.appId }}',
                 app_key: '{{ theme.valine.appKey }}',
                 placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
