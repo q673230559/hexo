@@ -6,8 +6,6 @@
         <script>
             var valine = new Valine({
                 av: AV,
-                notify: false, // 邮件提醒
-                verify: true, // 验证码
                 el: '.comment',
                 app_id: '{{ theme.valine.appId }}',
                 app_key: '{{ theme.valine.appKey }}',
