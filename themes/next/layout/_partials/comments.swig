@@ -7,6 +7,7 @@
             new Valine({
                 av: AV,
                 el: '.comment',
+                verify: true,
                 app_id: '{{ theme.valine.appId }}',
                 app_key: '{{ theme.valine.appKey }}',
                 placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
