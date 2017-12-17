@@ -6,7 +6,7 @@ tags: [markdown]
 categories: 技术
 permalink: file_standard
 ---
-> &emsp;&emsp;Markdown是一种可以使用普通文本编辑器编辑的标记语言，通过简单的标记语法，可以自动生成具有一定样式的文本。markdown语法简单明了，学习容易，而且功能比纯文本要强，因此很多人用他来写博客，比如WordPress和大型的CMS如Joomla、Drupal等都支持markdown。除此之外markdown还用于github中README.md用于编写说明文档。
+> Markdown是一种可以使用普通文本编辑器编辑的标记语言，通过简单的标记语法，可以自动生成具有一定样式的文本。markdown语法简单明了，学习容易，而且功能比纯文本要强，因此很多人用他来写博客，比如WordPress和大型的CMS如Joomla、Drupal等都支持markdown。除此之外markdown还用于github中README.md用于编写说明文档。
 
 # 文件头格式规范
 ``` stylus
